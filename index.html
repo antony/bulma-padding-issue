@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <style type="text/scss">
+      $control-padding-vertical: 18px;
+      $control-padding-horizontal: 12px;
+
+      @import 'node_modules/bulma/sass/utilities/_all.sass';
+      @import 'node_modules/bulma/sass/base/_all.sass';
+      @import 'node_modules/bulma/sass/elements/form.sass';
+    </style>
+  </head>
+  <body>
+    <div class="field has-addons has-addons-centered">
+      <p class="control">
+        <span class="select">
+          <select>
+            <option>$</option>
+            <option>£</option>
+            <option>€</option>
+          </select>
+        </span>
+      </p>
+      <p class="control">
+        <input class="input" type="text" placeholder="Amount of money">
+      </p>
+    </div>
+  </body>
+</html>
